@@ -1,6 +1,6 @@
 import facebookIcon from '../assets/facebook-icon.png'
-import twitterIcon from '../assets/twitter.png';
-import youtubeIcon from '../assets/youtube.png';
+import linkedinIcon from '../assets/linkedin.png';
+import gitHubIcon from '../assets/github.png'
 import instagramIcon from '../assets/instagram.png';
 import emailjs from '@emailjs/browser';
 import React, { useRef } from 'react';
@@ -39,8 +39,8 @@ const Contact = () => {
                     <button type="submit" value="Send" className='submitBtn'>Submit</button>
                     <div className="links">
                         <img src={facebookIcon} alt="Facebook" className="link" />
-                        <img src={twitterIcon} alt="Twitter" className="link" />
-                        <img src={youtubeIcon} alt="YouTube" className="link" />
+                        <img src={linkedinIcon} alt="LinkedIn" className="link" />
+                        <img src={gitHubIcon} alt="GitHub" className="link" />
                         <img src={instagramIcon} alt="Instagram" className="link" />
                     </div>
                 </form>
