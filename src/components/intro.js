@@ -1,5 +1,5 @@
 import React from 'react'
-import bg from '../assets/image.png'
+import bg from '../assets/image1.png'
 import btnImg from '../assets/hireme.png'
 import { Link } from 'react-scroll'
 
