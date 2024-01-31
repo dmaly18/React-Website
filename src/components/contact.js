@@ -11,7 +11,7 @@ const Contact = () => {
     const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm("service_rsaaksr","template_knmaxrg", form.current, 'M52wGJeXcn6ElHB8C')
+        emailjs.sendForm("gmail", "service_rsaaksr","template_knmaxrg", form.current, 'M52wGJeXcn6ElHB8C')
             .then((result) => {
                 console.log(result.text);
                 e.target.reset();
@@ -24,7 +24,7 @@ const Contact = () => {
     return (
         <div id='contactPage'>
             <div id="clients">
-                <h1 className="contactPageTitle">My clients</h1>
+                <h1 className="contactPageTitle">Tools I Use</h1>
                 <span className="clientDesc">
                   Pending
                 </span>
